@@ -1,9 +1,9 @@
 services:
   # A Docker web service
   - type: web
-    name: alist
+    name: cdisk
     env: docker
-    repo: https://github.com/zui-lang/Alist-on-Render.git # optional
+    repo: https://github.com/Zyz555444/Alist-on-Render.git # optional
     region: oregon # optional (defaults to oregon)
     plan: free # optional (defaults to starter)
     healthCheckPath: /
